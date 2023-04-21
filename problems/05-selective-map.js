@@ -37,7 +37,6 @@ console.log(selectiveMap([-10, 4, 7, 6, -2, -9], isPositive, square));
 *******************************************************************************/
 
 function selectiveMap(array, selector, mapper) {
-    // Your code here
     const result = [];
     for (let i = 0; i < array.length; i++) {
       if (selector(array[i])) {
